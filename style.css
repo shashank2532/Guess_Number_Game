@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: lightcoral; /* Background color */
+}
+
+.wrapper {
+    text-align: center;
+}
+
+.form {
+    margin-top: 20px; /* Adjust as needed */
+}
+
+.guessField {
+    display: block; /* Display input as block element */
+    margin: 0 auto; /* Center the input horizontally */
+    margin-top: 10px; /* Adjust as needed */
+}
+
+.guessSubmit {
+    margin-top: 10px; /* Adjust as needed */
+    background-color: #4CAF50; /* Green background */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.resultParas {
+    margin-top: 20px; /* Adjust as needed */
+}
